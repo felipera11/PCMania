@@ -1,8 +1,8 @@
 public class HardwareBasico {
 
-    String cpu;
-    int freq;
-    float ram;
-    float hd;
+    public String cpu;
+    public int freq;
+    public float ram;
+    public float hd;
 
 }

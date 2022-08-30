@@ -1,14 +1,14 @@
 public class Cliente {
 
-    String nome;
-    long cpf;
+    public String nome;
+    public long cpf;
 
 
     Computador[] comp = new Computador[50]; //levando em consideraçao que ninguem vai comprar mais de 50 pcs de uma vez
 
-    float total = 0;
+    public float total = 0;
 
-    void calculaTotalCompra(int aux){ //usado para finalizar a compra
+    public void calculaTotalCompra(int aux){ //usado para finalizar a compra
         System.out.println("Dados do cliente:");
         System.out.println("Nome: "+nome);
         System.out.println("CPF: "+cpf);

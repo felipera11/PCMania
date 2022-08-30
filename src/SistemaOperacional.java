@@ -1,6 +1,6 @@
 public class SistemaOperacional {
 
-    String nome;
-    int tipo;
+    public String nome;
+    public int tipo;
 
 }

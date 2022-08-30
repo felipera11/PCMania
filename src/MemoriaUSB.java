@@ -1,6 +1,6 @@
 public class MemoriaUSB {
 
-    String nome;
-    int capacidade;
+    public String nome;
+    public int capacidade;
 
 }

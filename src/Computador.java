@@ -1,13 +1,13 @@
 public class Computador {
 
-    String marca;
-    float preco;
+    public String marca;
+    public float preco;
 
     SistemaOperacional OS = new SistemaOperacional();
     HardwareBasico HB = new HardwareBasico();
     MemoriaUSB memoria;
 
-    void mostraPCConfigs(){
+    public void mostraPCConfigs(){
         System.out.println("Marca: "+marca);
         System.out.println("Preco: R$"+preco);
         System.out.println("Processador: "+HB.cpu);
@@ -17,7 +17,7 @@ public class Computador {
         System.out.println("Memoria USB: "+ memoria.nome + " de "+memoria.capacidade + "Gb");
     }
 
-    void addMemoriaUSB(int musb){
+    public void addMemoriaUSB(int musb){
         if (musb==1) {
             memoria.capacidade=16;
             memoria.nome="Pen-drive";
