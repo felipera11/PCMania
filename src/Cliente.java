@@ -24,4 +24,6 @@ public class Cliente {
         System.out.println("Muito obrigado por comprar na loja PC Mania!!");
     }
 
+    //teste
+
 }
